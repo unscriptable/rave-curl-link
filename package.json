@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Adds curl's link AMD plugin to RaveJS.",
   "main": "rave.js",
+  "rave": "rave",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
