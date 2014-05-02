@@ -1,28 +1,31 @@
 {
-  "name": "rave-curl-link",
-  "version": "0.0.3",
-  "description": "Adds curl's link AMD plugin to RaveJS.",
-  "main": "rave.js",
-  "rave": "rave",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:unscriptable/rave-curl-link.git"
-  },
-  "keywords": [
-    "rave",
-    "rave-extension",
-    "cujo",
-    "cujojs",
-    "amd",
-    "plugin"
-  ],
-  "dependencies": {
-    "curl": "~0.8",
-    "rave-amd-plugins": "~0"
-  },
-  "author": "John Hann (http://unscriptable.com)",
-  "license": "MIT"
+	"name": "rave-curl-link",
+	"version": "0.1.0",
+	"description": "Adds curl's link AMD plugin to RaveJS.",
+	"main": "rave.js",
+	"rave": "rave",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:unscriptable/rave-curl-link.git"
+	},
+	"keywords": [
+		"rave",
+		"rave-extension",
+		"cujo",
+		"cujojs",
+		"amd",
+		"plugin"
+	],
+	"dependencies": {
+		"curl": "~0.8"
+	},
+	"peerDepedencies": {
+		"rave-amd-plugins": "~0.1"
+	},
+	"homepage": "https://github.com/unscriptable/rave-curl-link",
+	"contributors": [
+		"John Hann (http://unscriptable.com)",
+		"Brian Cavalier (http://hovercraftstudios.com)"
+	],
+	"license": "MIT"
 }
