@@ -1,16 +1,23 @@
 {
 	"name": "rave-curl-link",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "Adds curl's link AMD plugin to RaveJS.",
 	"main": "rave.js",
-	"rave": "rave",
+	"dependencies": {
+		"curl": "~0.8",
+		"rave-amd-plugins": "~0.2"
+	},
+	"rave": {
+		"extension": "rave",
+		"overrides": {
+			"curl": {
+				"location": "bower_components/curl/src/curl"
+			}
+		}
+	},
 	"moduleType": [
 		"node"
 	],
-	"dependencies": {
-		"curl": "~0.8",
-		"rave-amd-plugins": "~0.1"
-	},
 	"keywords": [
 		"rave",
 		"rave-extension",
